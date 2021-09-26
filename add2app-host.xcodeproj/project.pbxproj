@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		50072B7626FCA99A0075B684 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50072B7526FCA99A0075B684 /* Preview Assets.xcassets */; };
 		50072B8126FCA99B0075B684 /* add2app_hostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50072B8026FCA99B0075B684 /* add2app_hostTests.swift */; };
 		50072B8C26FCA99B0075B684 /* add2app_hostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50072B8B26FCA99B0075B684 /* add2app_hostUITests.swift */; };
+		50072B9A270058A60075B684 /* FlutterUIViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50072B99270058A60075B684 /* FlutterUIViewControllerWrapper.swift */; };
 		72C9F54DDD19DE0AFAF479C4 /* Pods_add2app_host.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A1A6BB53BD1862CDB449C0 /* Pods_add2app_host.framework */; };
 		9C2DEAA0E288E9C6C3D3FF35 /* Pods_add2app_host_add2app_hostUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EEB72921A7C36989DC646D /* Pods_add2app_host_add2app_hostUITests.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		50072B8726FCA99B0075B684 /* add2app-hostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "add2app-hostUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50072B8B26FCA99B0075B684 /* add2app_hostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add2app_hostUITests.swift; sourceTree = "<group>"; };
 		50072B8D26FCA99B0075B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50072B99270058A60075B684 /* FlutterUIViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterUIViewControllerWrapper.swift; sourceTree = "<group>"; };
 		60EEB72921A7C36989DC646D /* Pods_add2app_host_add2app_hostUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_add2app_host_add2app_hostUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C78E0DEE8BE2ACEF18A194 /* Pods-add2app-host-add2app-hostUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-add2app-host-add2app-hostUITests.debug.xcconfig"; path = "Target Support Files/Pods-add2app-host-add2app-hostUITests/Pods-add2app-host-add2app-hostUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A964ABA8F62BEE71C48A566 /* Pods-add2app-hostTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-add2app-hostTests.debug.xcconfig"; path = "Target Support Files/Pods-add2app-hostTests/Pods-add2app-hostTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +99,6 @@
 				7A964ABA8F62BEE71C48A566 /* Pods-add2app-hostTests.debug.xcconfig */,
 				1C787DB89F30E7536A173767 /* Pods-add2app-hostTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,6 +132,7 @@
 				50072B7226FCA99A0075B684 /* Assets.xcassets */,
 				50072B7726FCA99A0075B684 /* Info.plist */,
 				50072B7426FCA99A0075B684 /* Preview Content */,
+				50072B99270058A60075B684 /* FlutterUIViewControllerWrapper.swift */,
 			);
 			path = "add2app-host";
 			sourceTree = "<group>";
@@ -419,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50072B9A270058A60075B684 /* FlutterUIViewControllerWrapper.swift in Sources */,
 				50072B7126FCA9990075B684 /* ContentView.swift in Sources */,
 				50072B6F26FCA9990075B684 /* add2app_hostApp.swift in Sources */,
 			);

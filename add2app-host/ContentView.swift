@@ -8,9 +8,40 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isPresented = false
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Go to Flutter")
+                .padding()
+                .onTapGesture {
+                    isPresented.toggle()
+                }
+                .fullScreenCover(
+                    isPresented: $isPresented, content: {
+                        FlutterView()
+                    }
+                )
+        }
+    }
+}
+
+struct FlutterView: View {
+    @Environment(\.presentationMode) var presentationMode
+
+    var body: some View {
+        NavigationView {
+            FlutterViewControllerWrapper()
+                .navigationTitle("Flutter")
+                .toolbar {
+                    ToolbarItem(placement:
+                                    .navigationBarLeading) {
+                        Button("Close Flutter") {
+                            presentationMode.wrappedValue.dismiss()
+                        }
+                    }
+                }
+        }
     }
 }
 
