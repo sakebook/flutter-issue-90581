@@ -1,0 +1,12 @@
+//
+//  Debug.xcconfig
+//  add2app-host
+//
+//  Created by ShinyaSakemoto on 2021/09/28.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-add2app-host/Pods-add2app-host.debug.xcconfig"
+// HOST_CONFIGURATION=debug,HOST_APP_NAME=[debug]add2app-host
+DART_DEFINES = SE9TVF9DT05GSUdVUkFUSU9OPWRlYnVn,SE9TVF9BUFBfTkFNRT1bRGVidWddYWRkMmFwcC1ob3N0

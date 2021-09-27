@@ -1,0 +1,12 @@
+//
+//  Release.xcconfig
+//  add2app-host
+//
+//  Created by ShinyaSakemoto on 2021/09/28.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-add2app-host/Pods-add2app-host.release.xcconfig"
+// HOST_CONFIGURATION=release,HOST_APP_NAME=add2app-host
+DART_DEFINES = SE9TVF9DT05GSUdVUkFUSU9OPXJlbGVhc2U=,SE9TVF9BUFBfTkFNRT1hZGQyYXBwLWhvc3Q=
